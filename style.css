@@ -35,8 +35,8 @@ a {
     background-color: #1f2937;
     color: #f9faf8;
     display: flex;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 50px;
+    
     justify-content: space-between;
 }
 
@@ -94,6 +94,7 @@ border-radius: 25%;
 
 .action-container {
     padding: 50px;
+    
 }
 
 .action {
@@ -102,6 +103,9 @@ border-radius: 25%;
     border-radius: 10px;
     color:#f9faf8;
     text-align: left;
+    /*display:flex;
+    flex-direction: column;*/
+    
     
 }
 
