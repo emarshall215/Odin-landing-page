@@ -103,8 +103,10 @@ border-radius: 25%;
     border-radius: 10px;
     color:#f9faf8;
     text-align: left;
-    /*display:flex;
-    flex-direction: column;*/
+    display: flex;
+    gap: 200px;
+   
+    
     
     
 }
@@ -114,6 +116,9 @@ border-radius: 25%;
     border:  1px solid #f9faf8;
     border-radius: 25%;
     color: #f9faf8;
+    flex-shrink: 1;
+    
+    
     
 }
 
@@ -122,4 +127,8 @@ border-radius: 25%;
     background-color: #1f2937;
     padding: 20px;
     color: #e5e7eb;
+}
+
+strong {
+    font-size: 28px;
 }
