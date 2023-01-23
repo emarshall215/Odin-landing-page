@@ -1,0 +1,121 @@
+* {
+    margin: 0
+   
+    
+}
+
+.header-container {
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+  background-color: #1f2937;
+}
+
+
+.right-nav {
+    align-content: space-be tween;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-links {
+    list-style-type: none;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.hero-container {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.right-column {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    align-items: stretch;
+   
+}
+
+.sign-up-hero {
+    border-radius: 20%;
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 80px;
+   height: 20px;
+   font-size: 12px;
+}
+
+.article-container {
+    align-content: space-between;
+    padding: 20px
+}
+
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+  align-content: center;
+    gap: 40px;
+}
+.thumbnail {
+border: #3882f6 solid 3px;
+border-radius: 25%;
+}
+
+.quote-container {
+    flex-wrap: wrap;
+    background-color: #e5e7eb;
+    font-style: italic;
+    font-size: 25px;
+    padding: 20px 150px 20px 150px
+}
+
+.action-container {
+    padding: 50px;
+}
+
+.action {
+    padding: 50px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color:#f9faf8;
+    text-align: left;
+    
+}
+
+.action-button {
+    background-color: #3882f6;
+    border:  1px solid #f9faf8;
+    border-radius: 25%;
+    color: #f9faf8;
+    
+}
+
+.footer-container {
+    
+    background-color: #1f2937;
+    padding: 20px;
+    color: #e5e7eb;
+}
